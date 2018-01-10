@@ -6,8 +6,7 @@
 #include <vector>
 using namespace std;
 
-class Track {
-public:
+struct Track {
     long long int r, c1, c2;
 };
 
