@@ -7,9 +7,9 @@ import java.util.Arrays;
 import java.lang.Long;
 
 class DataPoint {
-    public long price;
-    public int year;
-    public DataPoint(long p, int y) {
+    long price;
+    int year;
+    DataPoint(long p, int y) {
         price = p;
         year = y;
     }
