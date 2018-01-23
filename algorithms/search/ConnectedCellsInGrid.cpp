@@ -17,8 +17,7 @@ bool in_matrix(int n, int m, Position p) {
     return p.x < n && p.y < m && p.x >= 0 && p.y >= 0;
 }
 
-int region_size(int t[], bool visited[], int i, int j, int n, int m) {
-    Position c = {i, j};
+int region_size(int t[], bool visited[], Position c, int n, int m) {
     visited[c.x*m+c.y] = true;
     list<Position> queue;
     queue.push_back(c);
@@ -62,7 +61,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
             if(t[i*m+j] == 1 && !visited[i*m+j]) {
-                int tmp = region_size(t, visited, i, j, n, m);
+                int tmp = region_size(t, visited, {i, j}, n, m);
                 if(tmp > res)
                     res = tmp;
             }
