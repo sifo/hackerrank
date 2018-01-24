@@ -1,6 +1,6 @@
 import string
 
-def print_rangoli(size):
+def print_rangoli2(size):
     l = []
     for i in range(size):
         s = string.ascii_lowercase[size-1]
@@ -17,6 +17,20 @@ def print_rangoli(size):
 
     for i in l:
         print(i)
+
+def print_rangoli(size):
+    res = ""
+    for i in range(size):
+        line = string.ascii_lowercase[i]
+        for j in range(i+1, size):
+            c = string.ascii_lowercase[j]
+            line = c + "-" + line + "-" + c
+        line = line.center(size+(size-1)*3,'-')
+        if size > 1 and i != 0:
+            res = line + "\n" + res + "\n" + line
+        else:
+            res = line
+    print(res)
 
 if __name__ == '__main__':
     n = int(input())
