@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/merge-the-tools/problem
+
 def merge_the_tools(string, k):
     sub = string
     while len(sub) > 0:
