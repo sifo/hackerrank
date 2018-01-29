@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/separate-the-numbers/problem
+
 #include <iostream>
 #include <sstream>
 #include <cmath>

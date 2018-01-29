@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem
+
 import java.util.Scanner;
 
 class HackerRankInAString {

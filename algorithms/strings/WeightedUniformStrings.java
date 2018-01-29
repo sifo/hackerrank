@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/weighted-uniform-string/problem
+
 import java.util.Scanner;
 
 class WeightedUniformStrings {

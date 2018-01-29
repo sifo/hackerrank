@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/nested-list/problem
+
 if __name__ == '__main__':
     l = []
     for i in range(int(input())):

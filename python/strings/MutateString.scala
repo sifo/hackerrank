@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/python-mutations/problem
+
 import java.util.Scanner
 
 object MutateString {

@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/two-characters/problem
+
 #include <iostream>
 using namespace std;
 

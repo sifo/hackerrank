@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/the-birthday-bar/problem
+
 import java.util.Scanner;
 
 class BirthdayChocolate {

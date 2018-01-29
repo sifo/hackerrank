@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/alphabet-rangoli/problem
+
 import string
 
 def print_rangoli2(size):

@@ -1,3 +1,5 @@
+(* https://www.hackerrank.com/challenges/find-a-string/problem *)
+
 module S = String
 
 let rec find_string s r =

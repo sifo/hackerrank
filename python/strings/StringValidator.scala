@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/string-validators/problem
+
 import java.util.Scanner
 
 object StringValidator {

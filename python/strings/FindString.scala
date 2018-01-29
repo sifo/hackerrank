@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/find-a-string/problem
+
 import java.util.Scanner
 import scala.annotation.tailrec
 

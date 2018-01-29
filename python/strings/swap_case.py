@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/swap-case/problem
+
 def swap_letter(c):
     return c.lower() if c.isupper() else c.upper()
 

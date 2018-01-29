@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
 #include <cstdio>
 #include <iostream>
 using namespace std;

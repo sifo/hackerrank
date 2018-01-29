@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/compare-the-triplets/problem
+
 #include <cstdio>
 #include <iostream>
 using namespace std;

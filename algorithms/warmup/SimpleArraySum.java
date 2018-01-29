@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/simple-array-sum/problem
+
 import java.util.*;
 
 class SimpleArraySum {
@@ -9,7 +11,7 @@ class SimpleArraySum {
 		}
 		return res;
 	}
-	
+
 	public static void main(String [] args) {
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();

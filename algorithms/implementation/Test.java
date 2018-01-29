@@ -14,7 +14,7 @@ public static void main(String[] args) {
         for(int b_i=0; b_i < m; b_i++){
             b[b_i] = in.nextInt();
         }
-        
+
         int f = lcm(a);
         int l = gcd(b);
         int count = 0;
@@ -24,7 +24,7 @@ public static void main(String[] args) {
         System.out.println(count);
     }
 
-    
+
     private static int gcd(int a, int b) {
         while (b > 0) {
             int temp = b;

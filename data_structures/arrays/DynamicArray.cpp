@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/dynamic-array/problem
+
 #include <string>
 #include <iterator>
 #include <iostream>

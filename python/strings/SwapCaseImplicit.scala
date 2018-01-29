@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/swap-case/problem
 
 import java.util.Scanner
 

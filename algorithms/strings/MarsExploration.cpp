@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/mars-exploration/problem
+
 #include <iostream>
 using namespace std;
 

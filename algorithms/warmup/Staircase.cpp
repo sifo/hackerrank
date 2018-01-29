@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/staircase/problem
+
 #include <iostream>
 #include <cstdio>
 using namespace std;

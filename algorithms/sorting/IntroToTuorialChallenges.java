@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/tutorial-intro/problem
+
 import java.util.Scanner;
 
 class IntroToTutorialChallenges {

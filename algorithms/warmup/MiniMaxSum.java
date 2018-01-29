@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/mini-max-sum/problem
+
 import java.util.*;
 
 class MiniMaxSum {

@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/camelcase/problem
+
 import java.util.Scanner;
 
 class CamelCase {

@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/reduced-string/problem
+
 #include <iostream>
 using namespace std;
 

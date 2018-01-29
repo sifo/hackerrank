@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/day-of-the-programmer/problem
+
 #include <iostream>
 #include <cstdio>
 using namespace std;

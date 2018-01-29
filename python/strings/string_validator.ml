@@ -1,3 +1,5 @@
+(* https://www.hackerrank.com/challenges/string-validators/problem *)
+
 open Core.Std
 
 module C = Char

@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/whats-your-name/problem
+
 import java.util.Scanner
 
 object YourName {

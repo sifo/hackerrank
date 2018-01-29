@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/kangaroo/problem
+
 #include <cmath>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/swap-case/problem
+
 import java.util.Scanner;
 import java.util.List;
 import java.util.stream.Collectors;

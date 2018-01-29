@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/python-string-formatting/problem
+
 def print_formatted(number):
     w = len("{0:b}".format(number))
     for i in range(1, number+1):

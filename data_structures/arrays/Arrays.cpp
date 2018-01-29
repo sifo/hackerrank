@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/arrays-ds/problem
+
 #include <iostream>
 using namespace std;
 
