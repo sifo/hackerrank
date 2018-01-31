@@ -3,6 +3,7 @@
 */
 
 import java.util.Scanner;
+import java.util.TreeSet;
 import java.lang.Math;
 
 class MaximumSubarraySum {
@@ -113,6 +114,31 @@ class MaximumSubarraySum {
         return res;
     }
 
+    /*
+      Way Faster
+    */
+    static long f4(long [] t, long m) {
+        int n = t.length;
+        long [] prefix = new long[n];
+        long curr = 0;
+        for(int i = 0; i < n; i ++) {
+            curr += t[i];
+            prefix[i] = curr%m;
+        }
+
+        long res = 0;
+        TreeSet<Long> values = new TreeSet<Long>();
+        for(int i = 0; i < n; i ++) {
+            Long higher = values.higher(prefix[i]);
+            if(higher != null) {
+                res = Math.max(res, (prefix[i] - higher + m) % m);
+            }
+            res = Math.max(res, prefix[i]);
+            values.add(prefix[i]);
+        }
+        return res;
+    }
+
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         int q = sc.nextInt();
@@ -123,7 +149,7 @@ class MaximumSubarraySum {
             for(int i = 0; i < n; i++) {
                 t[i] = sc.nextLong();
             }
-            System.out.println(f3(t, m));
+            System.out.println(f4(t, m));
         }
     }
 }
