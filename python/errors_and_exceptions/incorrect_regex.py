@@ -3,7 +3,7 @@
 import re
 
 if __name__ == '__main__':
-    for i in range(int(input())):
+    for _ in range(int(input())):
         try:
             re.compile(input())
         except re.error:
