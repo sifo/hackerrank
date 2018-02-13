@@ -4,5 +4,5 @@ import re
 
 if __name__ == '__main__':
     emails = [input() for _ in range(int(input()))]
-    emails  = filter(lambda x: re.match( r'^[a-zA-Z0-9_\-]+@[a-zA-Z0-9]+\.[a-zA-Z]{1,3}$',x), emails)
+    emails  = filter(lambda x: re.match( r'^[a-z0-9_\-]+@[a-z0-9]+\.[a-z]{1,3}$', x.lower()), emails)
     print(sorted(emails))
