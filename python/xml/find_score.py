@@ -4,11 +4,9 @@ import sys
 import xml.etree.ElementTree as etree
 
 def get_attr_number(node):
-    r = len(node.attrib)
-    for n in node:
+    r = 0
+    for n in node.iter():
         r += len(n.attrib)
-        for m in n:
-            r += len(m.attrib)
     return r
 
 if __name__ == '__main__':
