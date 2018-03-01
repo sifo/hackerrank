@@ -3,6 +3,6 @@
 import numpy
 
 if __name__ == '__main__':
-    d = list(map(int, input().split()))
-    print(numpy.zeros(tuple(d), dtype = numpy.int))
-    print(numpy.ones(tuple(d), dtype = numpy.int))
+    d = tuple(map(int, input().split()))
+    print(numpy.zeros(d, dtype = numpy.int))
+    print(numpy.ones(d, dtype = numpy.int))
