@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem
 /*
   Delete Node at a given position in a linked list 
   head pointer input could be NULL as well for empty list
