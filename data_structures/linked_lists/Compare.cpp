@@ -19,3 +19,14 @@ int CompareLists(Node *headA, Node* headB)
         return 1;
     return CompareLists(headA->next, headB->next);
 }
+
+int CompareListsIter(Node *headA, Node* headB)
+{
+    while(headA != NULL && headB != NULL) {
+        if(headA->data != headB->data)
+            return 0;
+        headA = headA->next;
+        headB = headB->next;
+    }
+    return headA == NULL && headB == NULL;
+}
