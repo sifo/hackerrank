@@ -35,3 +35,35 @@ node * insert(node * root, int value) {
     }
     return root;
 }
+
+node * insertRec(node * root, int value) {
+    node * i =  new node({value, NULL, NULL});
+    if(root == NULL) {
+        return i;
+    }
+    if(value > root->data) {
+        if(root->right == NULL) {
+            root->right = i;
+        }
+        else insert(root->right, value);
+    } else {
+        if(root->left == NULL) {
+            root->left = i;
+        }
+        else insert(root->left, value);
+    }
+    return root;
+}
+
+node * insertRec2(node * root, int value) {
+    node * i =  new node({value, NULL, NULL});
+    if(root == NULL) {
+        return i;
+    }
+    if(value > root->data) {
+        root->right = insert(root->right, value);
+    } else {
+        root->left = insert(root->left, value);
+    }
+    return root;
+}
