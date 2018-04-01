@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/java-loops-i/problem
+
 import java.util.Scanner;
 
 public class Loops1 {
