@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/java-static-initializer-block/problem
+
 import java.util.Scanner;
 
 public class StaticInitializerBlock {
