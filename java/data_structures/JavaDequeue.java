@@ -1,4 +1,6 @@
 // https://www.hackerrank.com/challenges/java-dequeue/problem
+//
+// For ArrayDeque usage: see solution in link
 
 import java.util.Scanner;
 import java.util.Map;
