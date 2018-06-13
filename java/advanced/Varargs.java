@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/simple-addition-varargs/problem
+
 import java.io.*;
 import java.lang.reflect.*;
 import java.util.*;
