@@ -17,15 +17,14 @@ do
             then
                 s+="_"
             else
-                half=$((h/2))
-                if [[ " ${base[@]} " =~ " $j " ]] && [[ $i -ge $half ]]
+                if [[ " ${base[@]} " =~ " $j " ]] && [[ $i -ge $((h/2)) ]]
                 then
                     s+="1"
                 else
                     flag=false
                     for b in ${base[@]}
                     do
-                        if { [ $j = $((b+(h/2)-i)) ] || [ $j = $((b-(h/2)+i)) ]; } && [[ $i -le $half ]]
+                        if { [ $j = $((b+(h/2)-i)) ] || [ $j = $((b-(h/2)+i)) ]; } && [[ $i -le $((h/2)) ]]
                         then
                             s+="1"
                             flag=true
