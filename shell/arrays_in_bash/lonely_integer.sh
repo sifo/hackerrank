@@ -13,7 +13,7 @@ do
 done
 for i in {0..100}
 do
-    if [ "${count[${i}]}" == 1 ] 
+    if [ "${count[${i}]}" == 1 ]
     then
         echo $i
         break
