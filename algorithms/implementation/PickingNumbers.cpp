@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/picking-numbers/problem
+
 #include <iostream>
 using namespace std;
 
