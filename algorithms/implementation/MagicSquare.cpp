@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/magic-square-forming/problem
 #include <cstdio>
 #include <cmath>
 #include <iostream>
