@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/fp-filter-positions-in-a-list/problem
+
 import scala.annotation.tailrec
 
 def f(arr: List[Int]): List[Int] = {
